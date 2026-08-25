@@ -107,7 +107,7 @@ export default function AddColumnFilterScreen() {
 
     loadConditions(col.type);
   };
-
+  //bv
   const saveFilter = () => {
     if (!columnKey) {
       Alert.alert("Select Column");
