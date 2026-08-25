@@ -69,6 +69,7 @@ export default function AddColumnFilterScreen() {
     }
   }, []);
 
+  //bn
   const loadConditions = (type: string) => {
     let list: string[] = [];
 
